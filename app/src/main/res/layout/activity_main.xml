@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B1220"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CipherBoard"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="This APK registers a system keyboard (IME). Android never enables a keyboard automatically, so enable it below - then CipherBoard will appear as a keyboard everywhere."
+        android:textColor="#94A3B8"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="6dp"
+        android:textColor="#67E8F9"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnEnableKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="1. Enable Keyboard (System Settings)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnShowPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="2. Switch to CipherBoard (Keyboard Picker)"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Done? Tap any text field in WhatsApp, Messenger, Notes, etc. and the CipherBoard keyboard will pop up there."
+        android:textColor="#94A3B8"
+        android:textSize="13sp" />
+
+</LinearLayout>
